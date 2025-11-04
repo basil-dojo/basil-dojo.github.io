@@ -19,3 +19,16 @@ Respect:
 Engage:
 
 * [CONTRIBUTING](CONTRIBUTING.md)
+
+### GitHub Codespaces
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/basil-dojo/basil-dojo.github.io)
+
+You can launch this site in GitHub Codespaces to preview it without configuring Ruby locally:
+
+1. Open the repository in Codespaces and wait for the container to build. The included devcontainer installs the `github-pages` bundle automatically.
+2. The first boot runs `bundle install` and caches gems in `vendor/bundle` for faster reloads.
+3. Once the container is ready, start the preview with the **Serve Jekyll** task or run `bin/dev` manually. The site is served with live reload on forwarded port 4000.
+4. Reopen the forwarded URL to view changes as you edit.
+
+If the task stops, restart it with `bin/dev`.
