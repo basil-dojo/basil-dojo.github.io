@@ -9,7 +9,7 @@
     "source=bundle-cache,target=${containerWorkspaceFolder}/vendor/bundle,type=volume"
   ],
   "postCreateCommand": "bundle install",
-  "postAttachCommand": "bin/dev",
+  "postAttachCommand": "bundle exec jekyll serve --host 0.0.0.0 --port 4000 --livereload",
   "customizations": {
     "vscode": {
       "settings": {
